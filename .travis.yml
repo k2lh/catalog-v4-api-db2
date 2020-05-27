@@ -1,0 +1,14 @@
+## Travis CI build file
+##
+##  Author @thanh
+
+branches:
+  only:
+  - gh-pages
+
+install:
+  - sudo apt-get install yarn
+
+script:
+  - yarn serve
+

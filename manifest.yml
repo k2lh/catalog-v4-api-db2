@@ -1,0 +1,3 @@
+applications:
+- name: site-dev-api
+  random-route: false
